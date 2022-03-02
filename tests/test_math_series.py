@@ -6,7 +6,8 @@ def test_version():
 
 # i will import the functions that i will test it 
 from math_series.series import *
- 
+
+ #fibonacci_tests
 
 def test_fibonacci_0 ():
     assert (fibonacci(0)==[0])
@@ -30,7 +31,7 @@ def test_fibonacci_7():
 
 
  
-
+#lucos_tests
 def test_lucos_0():
     actual=lucas(0)
     expected=2
@@ -50,7 +51,7 @@ def test_lucos_11():
      actual=lucas(11)
      expected=199
      assert actual==expected
-
+#sum_series_tests
 def test_sum_series_2():
      actual=sum_series(2)
      expected=1
