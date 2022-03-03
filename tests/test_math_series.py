@@ -50,7 +50,7 @@ def test_lucos_11():
      actual=lucas(11)
      expected=199
      assert actual==expected
-#sum_series_tests
+#sum_series_tests#
 def test_sum_series_2():
      actual=sum_series(12,2,1)
      expected=322
