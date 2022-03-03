@@ -3,7 +3,7 @@ from math_series import  __version__
 def test_version():
     assert __version__ == '0.1.0'
 
-# i will import the functions that i will test it 
+# i will import the functions that i will test it #
 from math_series.series import *
 
  #fibonacci_tests#
