@@ -1,6 +1,5 @@
 from math_series import  __version__
-import math
-math.c
+ 
 def test_version():
     assert __version__ == '0.1.0'
 
@@ -53,13 +52,13 @@ def test_lucos_11():
      assert actual==expected
 #sum_series_tests
 def test_sum_series_2():
-     actual=sum_series(2)
-     expected=1
+     actual=sum_series(12,2,1)
+     expected=322
      assert actual==expected
 
 def test_sum_3():
-    actual=sum_series(3)
-    expected=2
+    actual=sum_series(8,4,6)
+    expected=178
     assert actual==expected
 
 
